@@ -1,7 +1,18 @@
 {
-"versionCode": 101,
-"versionName": "1.1",
-"title": "New Update Available",
-"html": "<h2>What's New</h2><ul><li>New player</li><li>Bug fixes</li></ul>",
-"download_url": "https://github.com/YOUR_USERNAME/YOUR_APP/releases/download/v1"
+  "release": {
+    "versionCode": 101,
+    "versionName": "1.1",
+    "title": "Vydroid 1.1",
+    "html": "<h2>What's New</h2><ul><li>New player</li><li>Bug fixes</li></ul>",
+    "download_url": "RELEASE_APK_URL"
+  },
+
+  "prerelease": {
+    "enabled": true,
+    "versionCode": 102,
+    "versionName": "1.2 Beta",
+    "title": "Vydroid 1.2 Beta",
+    "html": "<h2>Beta</h2><p>Testing new features.</p>",
+    "download_url": "BETA_APK_URL"
+  }
 }
