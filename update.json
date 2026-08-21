@@ -1,18 +1,8 @@
 {
-  "release": {
-    "versionCode": 101,
-    "versionName": "1.1",
-    "title": "Vydroid 1.1",
-    "html": "<h2>What's New</h2><ul><li>New player</li><li>Bug fixes</li></ul>",
-    "download_url": "RELEASE_APK_URL"
-  },
-
-  "prerelease": {
-    "enabled": true,
-    "versionCode": 102,
-    "versionName": "1.2 Beta",
-    "title": "Vydroid 1.2 Beta",
-    "html": "<h2>Beta</h2><p>Testing new features.</p>",
-    "download_url": "BETA_APK_URL"
-  }
+  "enabled": true,
+  "versionCode": 1,
+  "versionName": "1.0.0",
+  "title": "Vydroid 4.9.0",
+  "html": "<h2>What's New</h2><ul><li>New features</li><li>Performance improvements</li><li>Bug fixes</li></ul>",
+  "download_url": "https://github.com/PARAM74/Vydroid/releases/download/v4.9.0/Vydroid-4.9.0.apk"
 }
