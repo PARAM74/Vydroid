@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "mandatory": false,
+  "mandatory": true,
   "versionCode": 2,
   "versionName": "1.9.0",
   "title": "Vydroid 4.9.0",
