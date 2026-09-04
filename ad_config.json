@@ -2,7 +2,7 @@
   "config_version": 1,
   "remote_config": {
     "enabled": true,
-    "refresh_interval_seconds": 3600,
+    "refresh_interval_seconds": 300,
     "refresh_on_foreground": true,
     "use_cache": true,
     "network_timeout_seconds": 5
