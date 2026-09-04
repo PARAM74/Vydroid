@@ -18,7 +18,7 @@
       "enabled": true,
       "ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
       "minimum_watch_seconds": 600,
-      "minimum_gap_between_ads_seconds": 900,
+      "minimum_gap_between_ads_seconds": 100,
       "video_rules": {
         "under_20_minutes": { "max_ads": 0 },
         "20_to_60_minutes": { "max_ads": 1 },
@@ -26,7 +26,7 @@
         "over_120_minutes": { "max_ads": 3 }
       },
       "protection": {
-        "protect_first_percent": 15,
+        "protect_first_percent": 1,
         "protect_last_percent": 10,
         "protect_final_seconds": 180
       },
@@ -63,19 +63,19 @@
     "home_native": {
       "enabled": true,
       "ad_unit_id": "ca-app-pub-3940256099942544/2247696110",
-      "content_interval": 6,
-      "maximum_per_screen": 2
+      "content_interval": 3,
+      "maximum_per_screen": 20
     },
     "long_press": {
       "enabled": true,
       "ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
-      "cooldown_seconds": 600
+      "cooldown_seconds": 60
     },
     "apk_update_download": {
       "enabled": true,
       "ad_unit_id": "ca-app-pub-3940256099942544/2247696110",
       "maximum_display_seconds": 15,
-      "cooldown_seconds": 600
+      "cooldown_seconds": 60
     },
     "global_frequency": {
       "global_cooldown_seconds": 600,
