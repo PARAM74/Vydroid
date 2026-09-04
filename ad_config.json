@@ -7,30 +7,52 @@
     "use_cache": true,
     "network_timeout_seconds": 5
   },
+
   "platforms": {
-    "mobile": { "enabled": true },
-    "android_tv": { "enabled": true }
+    "mobile": {
+      "enabled": true
+    },
+    "android_tv": {
+      "enabled": true
+    }
   },
+
   "ads": {
-    "app_open": { "enabled": false },
-    "pre_roll": { "enabled": false },
+    "app_open": {
+      "enabled": false
+    },
+
+    "pre_roll": {
+      "enabled": false
+    },
 
     "mid_roll": {
       "enabled": true,
       "ad_unit_id": "ca-app-pub-7520378458001455/7076990292",
       "minimum_watch_seconds": 600,
       "minimum_gap_between_ads_seconds": 100,
+
       "video_rules": {
-        "under_20_minutes": { "max_ads": 0 },
-        "20_to_60_minutes": { "max_ads": 1 },
-        "60_to_120_minutes": { "max_ads": 2 },
-        "over_120_minutes": { "max_ads": 3 }
+        "under_20_minutes": {
+          "max_ads": 0
+        },
+        "20_to_60_minutes": {
+          "max_ads": 1
+        },
+        "60_to_120_minutes": {
+          "max_ads": 2
+        },
+        "over_120_minutes": {
+          "max_ads": 3
+        }
       },
+
       "protection": {
         "protect_first_percent": 1,
         "protect_last_percent": 10,
         "protect_final_seconds": 180
       },
+
       "do_not_show_during": {
         "buffering": true,
         "seeking": true,
@@ -43,19 +65,25 @@
     "floating_video_ad": {
       "enabled": true,
       "ad_unit_id": "ca-app-pub-7520378458001455/3510270055",
+
       "start": {
         "enabled": true,
         "after_watch_seconds": 5,
         "display_seconds": 15,
         "animation": "right_to_left"
       },
-      "middle": { "enabled": false },
+
+      "middle": {
+        "enabled": false
+      },
+
       "end": {
         "enabled": true,
         "remaining_seconds": 30,
         "display_seconds": 15,
         "animation": "left_to_right"
       },
+
       "hide_during": {
         "player_controls": true,
         "seeking": true,
@@ -83,57 +111,6 @@
       "cooldown_seconds": 60
     },
 
-    "global_frequency": {
-      "global_cooldown_seconds": 600,
-      "max_interstitial_style_ads_per_session": 5,
-      "max_total_ads_per_session": 10,
-      "prevent_consecutive_ads": true,
-      "post_ad_grace_period_seconds": 30
-    }
-  }
-}        "video_switch": true,
-        "player_interaction": true
-      }
-    },
-    "floating_video_ad": {
-      "enabled": true,
-      "ad_unit_id": "ca-app-pub-3940256099942544/2247696110",
-      "start": {
-        "enabled": true,
-        "after_watch_seconds": 5,
-        "display_seconds": 15,
-        "animation": "right_to_left"
-      },
-      "middle": { "enabled": false },
-      "end": {
-        "enabled": true,
-        "remaining_seconds": 30,
-        "display_seconds": 15,
-        "animation": "left_to_right"
-      },
-      "hide_during": {
-        "player_controls": true,
-        "seeking": true,
-        "buffering": true
-      }
-    },
-    "home_native": {
-      "enabled": true,
-      "ad_unit_id": "ca-app-pub-3940256099942544/2247696110",
-      "content_interval": 3,
-      "maximum_per_screen": 20
-    },
-    "long_press": {
-      "enabled": true,
-      "ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
-      "cooldown_seconds": 60
-    },
-    "apk_update_download": {
-      "enabled": true,
-      "ad_unit_id": "ca-app-pub-3940256099942544/2247696110",
-      "maximum_display_seconds": 15,
-      "cooldown_seconds": 60
-    },
     "global_frequency": {
       "global_cooldown_seconds": 600,
       "max_interstitial_style_ads_per_session": 5,
