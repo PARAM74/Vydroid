@@ -1,13 +1,9 @@
 {
   "enabled": true,
-  "force_update": false,
-  "latest_version_code": 2,
-  "latest_version_name": "1.1.0",
-  "release_notes": [
-    "Refactored Ad Management System",
-    "Separated Ad and Update configs",
-    "Improved Floating Ad transitions",
-    "Bug fixes and performance improvements"
-  ],
-  "apk_url": "https://github.com/PARAM74/Vydroid/releases/download/v1.1.0/Vydroid-v1.1.0.apk"
+  "mandatory": false,
+  "versionCode": 1,
+  "versionName": "1.0.0",
+  "title": "Vydroid 4.9.0",
+  "html": "<h2>What's mahi New</h2><ul><li>New features</li><li>Performance improvements</li><li>Bug fixes</li></ul>",
+  "download_url": "bew"
 }
