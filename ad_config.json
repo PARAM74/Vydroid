@@ -1,7 +1,7 @@
 {
   "config_version": 1,
   "remote_config": {
-    "enabled": true,
+    "enabled": false,
     "refresh_interval_seconds": 300,
     "refresh_on_foreground": true,
     "use_cache": true,
