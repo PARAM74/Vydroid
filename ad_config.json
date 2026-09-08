@@ -20,12 +20,12 @@
       "enabled": true,
       "mobile": {
         "enabled": true,
-        "content_interval": 6,
+        "content_interval": 3,
         "max_ads_per_screen": 2
       },
       "android_tv": {
         "enabled": true,
-        "content_interval": 4,
+        "content_interval": 2,
         "max_ads_per_screen": 2
       }
     },
