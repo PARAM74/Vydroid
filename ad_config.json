@@ -20,7 +20,7 @@
       "enabled": true,
       "mobile": {
         "enabled": true,
-        "content_interval": 3,
+        "content_interval": 1,
         "max_ads_per_screen": 2
       },
       "android_tv": {
