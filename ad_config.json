@@ -5,7 +5,7 @@
     "refresh_interval_seconds": 600,
     "refresh_on_foreground": true,
     "use_cache": true,
-    "network_timeout_seconds": 5
+    "network_timeout_seconds": 9
   },
   "platforms": {
     "mobile": { "enabled": true },
@@ -17,8 +17,8 @@
       "ad_unit_id": "ca-app-pub-3940256099942544/2247696110",
       "mobile": {
         "enabled": true,
-        "content_interval": 2, 
-        "max_ads_per_screen": 4
+        "content_interval": 1, 
+        "max_ads_per_screen": 9
       },
       "android_tv": {
         "enabled": true,
@@ -27,7 +27,7 @@
       }
     },
     "pre_roll_interstitial": {
-      "enabled": false,
+      "enabled": true,
       "ad_unit_id": "ca-app-pub-3940256099942544/1033173712"
     }
   }
