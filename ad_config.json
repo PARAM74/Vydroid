@@ -1,5 +1,5 @@
 {
-  "config_version": 4,
+  "config_version": 1,
   "remote_config": {
     "enabled": true,
     "refresh_interval_seconds": 600,
@@ -8,12 +8,8 @@
     "network_timeout_seconds": 5
   },
   "platforms": {
-    "mobile": {
-      "enabled": true
-    },
-    "android_tv": {
-      "enabled": true
-    }
+    "mobile": { "enabled": true },
+    "android_tv": { "enabled": true }
   },
   "ads": {
     "home_native": {
@@ -21,41 +17,18 @@
       "ad_unit_id": "ca-app-pub-3940256099942544/2247696110",
       "mobile": {
         "enabled": true,
-        "content_interval": 1,
-        "max_ads_per_screen": 2
+        "content_interval": 2, 
+        "max_ads_per_screen": 4
       },
       "android_tv": {
         "enabled": true,
-        "content_interval": 2,
-        "max_ads_per_screen": 2
+        "content_interval": 3,
+        "max_ads_per_screen": 4
       }
     },
     "pre_roll_interstitial": {
-      "enabled": true,
-      "ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
-      "ads_per_break": 4,
-      "auto_close_seconds": 15,
-      "mobile": {
-        "enabled": true,
-        "cooldown_seconds": 0
-      },
-      "android_tv": {
-        "enabled": true,
-        "cooldown_seconds": 0
-      }
-    },
-    "app_open_rewarded": {
       "enabled": false,
-      "mobile": {
-        "enabled": false,
-        "max_ads_per_session": 1,
-        "cooldown_seconds": 3600
-      },
-      "android_tv": {
-        "enabled": false,
-        "max_ads_per_session": 1,
-        "cooldown_seconds": 1800
-      }
+      "ad_unit_id": "ca-app-pub-3940256099942544/1033173712"
     }
   }
 }
